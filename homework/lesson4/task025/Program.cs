@@ -8,7 +8,6 @@
         i++;
     }
     return result;
-
 }
 Console.Write(" Enter a number A: ");
 double A = Convert.ToDouble(Console.ReadLine());
