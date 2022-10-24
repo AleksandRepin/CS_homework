@@ -1,16 +1,11 @@
-﻿
-double sum()
+﻿task027();
+
+static void task027()
 {
-    int s = 0;
-    for (int i = 0; i < arr.Length; i++)
-    {
-        s = N[i] + N[i + 1];
-        return s;
-    }
-    Console.WriteLine(s);
+    Console.Write("Enter a number N: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+
+    int sum = 0;
+    for (int n = num; n > 0; sum = sum + n % 10, n = n / 10);
+    Console.WriteLine(sum);
 }
-sum();
-// Console.Write(" Enter a number N: ");
-// string N = Console.ReadLine();
-// sum(res);
-// Console.WriteLine(res);
