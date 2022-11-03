@@ -18,7 +18,6 @@ void arrayFill(int[] arg)
     }
  }
 
-
 int[] array = new int[10];
 arrayFill(array);
 arrayFind(array);
