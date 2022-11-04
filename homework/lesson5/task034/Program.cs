@@ -7,21 +7,21 @@ void arrayFill(int[] arg)
         Console.WriteLine(arg[i]);
     }
 }
- void arrayFind(int[] arg1)
- {
-    for (int j =0; j < arg1.Length; j++)
+
+void arrayFind(int[] arg1)
+{
+    int count = 0;
+    for (int j = 0; j < arg1.Length; j++)
     {
         if (arg1[j] % 2 == 0)
         {
-            Console.WriteLine(1);
-        }
+            count++;
+        }   
     }
- }
+    Console.WriteLine(count);
+}
 
 int[] array = new int[10];
 arrayFill(array);
 arrayFind(array);
-
-
-
 
