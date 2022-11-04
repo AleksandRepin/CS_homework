@@ -5,16 +5,31 @@
 
 // [-4, -6, 89, 6] -> 0
 
-int[] array = new int[10];
-
-for (int i = 0; i < array.Length; i++)
+void arrayFill(int[] arg)
 {
-    array[i] = Random.Shared.Next(-100, 100);
-    if (i % 2 != 0)
+    for (int i = 0; i < arg.Length; i++)
     {
-        Console.WriteLine(array[i]);
+        arg[i] = Random.Shared.Next(-1000, 1000);
+        Console.Write($"{arg[i]} ");
     }
 }
-Console.WriteLine(String.Join(' ', array));
+
+void getSum(int[] arg1)
+{
+    int sum = 0;
+    for (int j = 0; j < arg1.Length; j++)
+    {
+        if (j % 2 != 0)
+        {
+            sum = sum + arg1[j];
+        }   
+    }
+    Console.WriteLine($" сумма нечетных элементов = {sum}");
+}
+
+int[] array = new int[10];
+arrayFill(array);
+getSum(array);
+
 
 
