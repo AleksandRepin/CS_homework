@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="s0UlNRpOL5VZyyAHmObZ" name="Page-1">
+        <mxGraphModel dx="718" dy="155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;b style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;ys text&amp;quot;, arial, helvetica, &amp;quot;arial unicode ms&amp;quot;, sans-serif; font-size: 16px; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;Функция&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;ys text&amp;quot;, arial, helvetica, &amp;quot;arial unicode ms&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;ys text&amp;quot;, arial, helvetica, &amp;quot;arial unicode ms&amp;quot;, sans-serif; font-size: 16px; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;Аккермана&lt;/b&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;ys text&amp;quot;, arial, helvetica, &amp;quot;arial unicode ms&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;(m, n) определяется следующим образом: Ackermann(0, n) = n+1; Ackermann(m,0) = Ackermann(m-1,1); Ackermann(m, n) = Ackermann(m-1, Ackermann(m, n-1)), m&amp;gt;0, n&amp;gt;0。 Рекурсивная реализация.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="150" width="550" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
