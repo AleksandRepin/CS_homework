@@ -30,12 +30,12 @@ void AB(int[,] ab)
     A(matrix);
     Console.Write("MATRIX B: ");
     B(matrix);
-    int ab00 = a[i, j] * b[i, j] + a[i, j + 1] * b[i + 1, j];
-    int ab01 = a[i, j] * b[i, j + 1] + a[i, j + 1] * b[i + 1, j + 1];
-    int ab10 = a[i + 1, j] * b[i, j] + a[i + 1, j + 1] * b[i + 1, j];
-    int ab11 = a[i + 1, j] * b[i, j + 1] + a[i + 1, j + 1] * b[i + 1, j + 1];
-    Console.Write($"{ab00} {ab01}");
-    Console.Write($"{ab10} {ab11}");
+    // int ab00 = a[i, j] * b[i, j] + a[i, j + 1] * b[i + 1, j];
+    // int ab01 = a[i, j] * b[i, j + 1] + a[i, j + 1] * b[i + 1, j + 1];
+    // int ab10 = a[i + 1, j] * b[i, j] + a[i + 1, j + 1] * b[i + 1, j];
+    // int ab11 = a[i + 1, j] * b[i, j + 1] + a[i + 1, j + 1] * b[i + 1, j + 1];
+    // Console.Write($"{ab00} {ab01}");
+    // Console.Write($"{ab10} {ab11}");
 }
 
 int[,] matrix = new int[2, 2];
